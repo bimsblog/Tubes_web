@@ -38,10 +38,8 @@
     <main role="main" class="container">
       <div class="jumbotron">
         <h1>Navbar example</h1>
-        <p class="lead">
-        	<?php 
-echo 'Selamat Datang, '.$this->session->userdata('logged_in')['username']; ?>
-        </p>
+        
+        
       </div>
     </main>
     <form class="form-inline mt-2 mt-md-0">
