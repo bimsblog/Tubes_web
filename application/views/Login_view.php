@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Masuk Template dengan Boostrap</title>
+    <title>Login</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
