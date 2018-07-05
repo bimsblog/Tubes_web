@@ -63,7 +63,7 @@
 							</thead>
 						<tbody>
 
-							          <?php foreach ($perpustakaan_list as $key => $value): ?>
+							          <?php foreach ($daftar_buku as $key => $value): ?>
             <tr>
               <td><?php echo $value['id'] ?></td>
               <td><?php echo $value['nama'] ?></td>
@@ -80,7 +80,5 @@
 					</table>
 </div>
 </body>
-    <button class="form-inline mt-2 mt-md-0">
-          <a href="<?php echo base_url('index.php/Login/logout') ?>" class="btn btn-secondary my-2 my-sm-0 ml-2"> Logout</a>
-        </button>
+    
 </html>
