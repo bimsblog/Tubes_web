@@ -19,5 +19,10 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+
+	public function daftarBukuAdmin()
+	{
+		$this->load->view('daftar_buku_admin');
+	}
 	
 }

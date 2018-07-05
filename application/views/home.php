@@ -31,7 +31,7 @@
             <a class="nav-link" href="<?php echo site_url()?>/home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="">
-            <a class="nav-link" href="#">Daftar Buku<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="<?php echo site_url()?>/home/daftarBukuAdmin">Daftar Buku<span class="sr-only">(current)</span></a>
           </li>
            <li class="">
             <a class="nav-link" href="<?php echo base_url('index.php/Login/logout') ?>">logout<span class="sr-only">(current)</span></a>
