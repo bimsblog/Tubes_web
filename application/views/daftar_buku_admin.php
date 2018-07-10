@@ -26,10 +26,12 @@
   		<!-- Collect the nav links, forms, and other content for toggling -->
   		<div class="collapse navbar-collapse navbar-ex1-collapse">
   			<ul class="nav navbar-nav">
-  				<li class="active"><a href="<?php echo site_url()?>/perpustakaan_home">Home</a></li>
+  				<li class="active"><a href="<?php echo site_url()?>/daftar_buku_admin">Daftar Buku</a></li>
+          <li class="active"><a href="<?php echo site_url()?>/home">Home</a></li>
           
           
   			</ul>
+
 
   			<ul class="nav navbar-nav navbar-right">
   				<li class="dropdown">
@@ -63,7 +65,7 @@
 							</thead>
 						<tbody>
 
-							          <?php foreach ($daftar_buku as $key => $value): ?>
+							          <?php foreach ($daftar_buku_list as $key => $value): ?>
             <tr>
               <td><?php echo $value['id'] ?></td>
               <td><?php echo $value['nama'] ?></td>
