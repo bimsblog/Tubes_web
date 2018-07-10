@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Contoh Navbar menggunakan Bootstrap</title>
+    <title>Home</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php echo base_url() ?>../assets/css/bootstrap.min.css">
@@ -21,15 +21,22 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="#">Welcome</a>
+      <a class="navbar-brand" href="#">Perpustakaan Online</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="<?php echo site_url()?>/home">Home <span class="sr-only">(current)</span></a>
           </li>
+          <li class="">
+            <a class="nav-link" href="<?php echo site_url()?>/home/daftarBukuAdmin">Daftar Buku<span class="sr-only">(current)</span></a>
+          </li>
+           <li class="">
+            <a class="nav-link" href="<?php echo base_url('index.php/Login/logout') ?>">logout<span class="sr-only">(current)</span></a>
+          </li>
+          
         </ul>
         
       </div>
@@ -37,15 +44,12 @@
 
     <main role="main" class="container">
       <div class="jumbotron">
-        <h1>Navbar example</h1>
+        <h1>Selamat Datang di Perpustakaan Online</h1>
         
         
       </div>
     </main>
-    <form class="form-inline mt-2 mt-md-0">
-          <a href="<?php echo base_url('index.php/Login/logout') ?>" class="btn btn-secondary my-2 my-sm-0 ml-2">Logout</a>
-        </form>
-
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
