@@ -22,7 +22,11 @@ class Home extends CI_Controller {
 
 	public function daftarBukuAdmin()
 	{
-		$this->load->view('daftar_buku_admin');
+		// $this->load->view('daftar_buku_admin');
+		$this->load->helper('url','form');
+		$this->load->model('daftar_buku_model');
+		$data['daftar_buku_list'] = $this->daftar_buku_model->getDatadaftarbuku();
+		$this->load->view('daftar_buku_admin', $data);
 	}
 	
 }

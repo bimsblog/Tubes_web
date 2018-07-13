@@ -65,7 +65,7 @@
 							</thead>
 						<tbody>
 
-							          <?php foreach ($daftar_buku_list as $key => $value): ?>
+						<?php foreach ($daftar_buku_list as $key => $value): ?>
             <tr>
               <td><?php echo $value['id'] ?></td>
               <td><?php echo $value['nama'] ?></td>
@@ -82,5 +82,11 @@
 					</table>
 </div>
 </body>
+<p>
+        <a href="<?php echo base_url("index.php/perpustakaan/create/ ")?>"><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-plus"></span> TAMBAH DATA
+    </button></a>
+      </p>
+
     
 </html>

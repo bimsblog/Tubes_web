@@ -1,7 +1,7 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Perpustakaan_model extends CI_Model {
+class Daftar_buku_model extends CI_Model {
 
  public function insertdaftarbuku()
  {
@@ -18,7 +18,7 @@ class Perpustakaan_model extends CI_Model {
 
 public function getDatadaftarbuku()
 	{
-		$query = $this->db->get("perpustakaan");
+		$query = $this->db->get("daftar_buku");
 		return $query->result_array();
 	}
 public function getdaftarbuku($id)
