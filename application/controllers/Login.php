@@ -1,17 +1,15 @@
 <?php
-<<<<<<< HEAD
-defined('BASEPATH') OR exit('No direct script access allowed');
+// defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Login extends CI_Controller {
+// class Login extends CI_Controller {
 
-  public function index()
-  {
-    $this->load->view('Login_view');
-  }
+//   public function index()
+//   {
+//     $this->load->view('Login_view');
+//   }
   
-}
-?>
-=======
+// }
+
  defined('BASEPATH') OR exit('No direct script access allowed');
  
  class Login extends CI_Controller {
@@ -82,4 +80,4 @@ class Login extends CI_Controller {
  /* End of file Login.php */
  /* Location: ./application/controllers/Login.php */ 
  ?>
->>>>>>> 4b43183426c90a2749025f2a7455a3cb4903f74b
+

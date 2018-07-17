@@ -73,7 +73,7 @@
               <td><?php echo $value['tanggal'] ?></td>
               <td><?php echo $value['harga'] ?></td>
               <td>
-                <a href="<?php echo site_url()?>/perpustakaan"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-edit"></span> Edit</button></a>
+                <a href="<?php echo site_url()?>/daftar_buku_admin"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-edit"></span> Edit</button></a>
               </td>
             </tr>
             
@@ -83,7 +83,7 @@
 </div>
 </body>
 <p>
-        <a href="<?php echo base_url("index.php/perpustakaan/create/ ")?>"><button type="button" class="btn btn-info">
+        <a href="<?php echo base_url("index.php/daftar_buku/create/ ")?>"><button type="button" class="btn btn-info">
       <span class="glyphicon glyphicon-plus"></span> TAMBAH DATA
     </button></a>
       </p>
